@@ -30,6 +30,11 @@ nav li a{
     color: gray;
     text-transform: uppercase;
 }
+.background-grigio{
+    background-color:rgba(0, 0, 0, 0.3) ;
+    border-radius: 15px;
+    height: 100%;
+}
 
 .jumbotron{
     height: 500px;
@@ -38,7 +43,7 @@ nav li a{
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 15px;
-    filter: brightness(80%);
+    opacity: 0.8;
 }
 
 #jumbo-title{
@@ -50,6 +55,6 @@ nav li a{
     padding-top: 350px;
     padding-left: 50px;
     padding-right: 40%;
-    color: white;
+    color:white;
     
 }
