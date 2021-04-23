@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    display: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo{
+    height: 60px;
+    background-color: brown;
+    background-image: url(../img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+nav{
+    height: 50px;
+    background-color: chartreuse;
+}
+
+nav li{
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 10px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: gray;
+    text-transform: unset;
+}
+
+.jumbotron{
+    height: 200px;
+    background-color: darkgoldenrod;
+}
