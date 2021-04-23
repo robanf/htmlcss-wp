@@ -43,7 +43,7 @@ nav li a{
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 15px;
-    opacity: 0.8;
+    margin: 20px 0px;
 }
 
 #jumbo-title{
@@ -58,3 +58,67 @@ nav li a{
     color:white;
     
 }
+
+.text{
+    color: gray;
+}
+
+.tendine{
+    
+    margin:20px 0px;
+    
+}
+
+.tendine::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.box{
+    float:left;
+    
+
+}
+
+.sinistra{
+    width: 23%;
+    
+}
+
+.centrale{
+    width: 50%;
+    
+    margin: 0 2%;
+}
+
+.destra{
+    width: 23%;
+   
+}
+
+.img-1{
+    background-image: url(../img/img-1.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.img-2{
+    background-image: url(../img/banner-2.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-3{
+    background-image: url(../img/img-3.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
