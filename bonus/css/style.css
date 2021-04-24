@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo{
+    height: 60px;
+    
+    background-image: url(../img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+nav li{
+    display: inline-block;
+    padding: 20px 0;
+    margin-right: 10px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+}
+.background-grigio{
+    background-color:rgba(0, 0, 0, 0.3) ;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.jumbotron{
+    height: 500px;
+    background-image: url(../img/2742190.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin: 20px 0px;
+}
+
+#jumbo-title{
+    font-size: 22px;
+}
+
+.jumbo-text{
+    display: inline-block;
+    padding-top: 350px;
+    padding-left: 50px;
+    padding-right: 40%;
+    color:white;
+    
+}
+
+.text{
+    color: gray;
+}
+
+.tendine{
+    
+    margin:20px 0px;
+    
+}
+
+.tendine::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.box{
+    float:left;
+    font-size: 18px;
+
+}
+
+.sinistra{
+    width: 32%;
+    
+}
+
+.centrale{
+    width: 32%;
+    
+    margin: 0 2%;
+}
+
+.destra{
+    width: 32%;
+   
+}
+
+.img-1{
+    background-image: url(../img/img-1.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.img-2{
+    background-image: url(../img/img-2.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-3{
+    background-image: url(../img/img-3.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.foto-profilo{
+    
+    background-image: url(../img/IMGP6562.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.img-4{
+    background-image: url(../img/img-4.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-5{
+    background-image: url(../img/img-5.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-6{
+    background-image: url(../img/img-6.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
